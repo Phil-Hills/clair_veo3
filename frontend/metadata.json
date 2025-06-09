@@ -1,0 +1,6 @@
+
+{
+  "name": "VEO-3 MP4 Scene Maker",
+  "description": "An application to generate MP4 video scenes using AI, mimicking the VEO-3 workflow. Input prompts and parameters to simulate video generation requests and track their status. Actual VEO-3 API calls would require a backend.",
+  "requestFramePermissions": ["camera"]
+}

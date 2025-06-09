@@ -1,0 +1,4 @@
+  - name: 'gcr.io/firebase-tools/firebase'
+    args: ['deploy', '--project=$PROJECT_ID', '--only=hosting']
+    env:
+      - 'FIREBASE_TOKEN=$_FIREBASE_TOKEN'

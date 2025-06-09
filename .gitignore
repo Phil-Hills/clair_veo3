@@ -1,0 +1,30 @@
+# Node.js
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+*.local
+
+# Google Cloud credentials
+backend/credentials/*
+
+# Vite build output
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+
+# Editor and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

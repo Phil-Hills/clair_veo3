@@ -1,0 +1,13 @@
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    args:
+      - run
+      - deploy
+      - clair-veo3-backend
+      - --image=gcr.io/$PROJECT_ID/clair-veo3-backend
+      - --platform=managed
+      - --region=us-central1
+      - --allow-unauthenticated
+      - --service-account=veo3-service-account@$PROJECT_ID.iam.gserviceaccount.com
+    entrypoint: gcloud
+images:
+  - 'gcr.io/$PROJECT_ID/clair-veo3-backend'
